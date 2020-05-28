@@ -1,0 +1,22 @@
+{
+	"name"             :"zhusaidong/algorithms",
+	"description"      :"php algorithms",
+	"minimum-stability":"stable",
+	"license"          :"MIT",
+	"authors"          :[
+		{
+			"name" :"zhusaidong",
+			"email":"zhusaidong@gmail.com"
+		}
+	],
+	"require"          :{
+	},
+	"autoload"         :{
+		"psr-4":{
+			"zhusaidong\\algorithms\\":"src\\"
+		},
+		"files":[
+			"src/util/util.php"
+		]
+	}
+}
