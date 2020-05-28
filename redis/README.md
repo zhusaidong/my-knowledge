@@ -1,7 +1,5 @@
 # redis
 
-[学习视频](https://www.bilibili.com/video/BV1x54y1X7kM)
-
 `OBJECT ENCODING key` key的数据类型
 
 ## 锁
@@ -94,17 +92,17 @@ BRPOP：从list尾部弹出一个元素，如果list里没有元素会阻塞
 
 集合
 
-SADD key 添加元素
+`SADD key` 添加元素
 
-SMEMBERS key 获取所有元素
+`SMEMBERS key` 获取所有元素
 
-SCARD key 获取所有元素的总数
+`SCARD key` 获取所有元素的总数
 
-SISMEMBER key 判断元素是否存在
+`SISMEMBER key` 判断元素是否存在
 
-SRANDMEMBER key [count] 随机获取count个元素
+`SRANDMEMBER key [count]` 随机获取count个元素
 
-SPOP key [count]，随机弹出（会删除集合中的元素）count个元素
+`SPOP key [count]`，随机弹出（会删除集合中的元素）count个元素
 
 *支持集合操作*
 
@@ -114,7 +112,7 @@ SINTER：交集
 
 SUNION：并集
 
- SDIFF：差集
+SDIFF：差集
 
 ### zset
 

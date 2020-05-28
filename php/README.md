@@ -58,8 +58,6 @@ FG：文件全局变量。
 
 ## 词法分析
 
-http://gywbd.github.io/posts/2016/4/php-new-syntax-feature.html
-
 源代码只是一段字符串。我们需要通过正则在字符串里找到所有的变量，赋值语句，函数等等标识（token）。这个过程称为词法分析
 
 NFA-不确定有穷自动机
@@ -75,8 +73,6 @@ re2c 词法分析工具
 bison工具
 
 ##  **hashtable**
-
-https://blog.csdn.net/xiaolei1982/article/details/52292866
 
 ```c
 struct _zval_struct {
@@ -142,11 +138,8 @@ typedef struct _HashTable {
 
 vld : opcode 查看器
 
-http://gywbd.github.io/posts/2016/2/vld-opcode.html
 
 ## 内存管理
-
-https://www.php.cn/php-weizijiaocheng-392488.html
 
 zend内存块
 
