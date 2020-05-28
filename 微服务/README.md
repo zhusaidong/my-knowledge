@@ -26,3 +26,13 @@ rpc框架的作用是封装rpc的复杂性，使得client和server调用远程�
 
 这时候就需要分布式事务。
 
+### MQ+TCC
+
+使用MQ来确保消息的送达
+
+TCC：try，confirm，cancel
+
+try阶段，先进行数据检查，（如，库存是否充足等等）。
+confirm阶段：当所有检查通过，进行执行事务。
+cancel阶段：取消执行操作。事务出错，回滚。
+
