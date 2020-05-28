@@ -10,5 +10,6 @@
   - [swoole](php/swoole/README.md)
   - [swoft](php/swoft/README.md)
     - [swoft运行流程](php/swoft/README.md#swoft运行流程)
+  - [php算法](algorithms/README.md)
 - [redis](redis/README.md)
 - [微服务](微服务/README.md)
