@@ -1,4 +1,4 @@
-# linux 常用命令
+# linux 常用又常常忘记:sob:的命令
 
 ## watch
 
@@ -31,3 +31,4 @@ sudo watch service redis-server status
 ### 解压
 
 `tar -xzvf test.tar.gz`
+
