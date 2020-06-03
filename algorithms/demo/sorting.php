@@ -4,7 +4,7 @@
  *
  * @author zhusaidong <zhusaidong@gmail.com>
  */
-include "../vendor/autoload.php";
+require __DIR__ . "/../vendor/autoload.php";
 
 use zhusaidong\algorithms\Sorting;
 use zhusaidong\algorithms\Algorithms;
